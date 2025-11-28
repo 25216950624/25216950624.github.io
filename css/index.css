@@ -1,0 +1,175 @@
+/*新鲜好物 goods*/
+.goods {
+    background-color: #fff;
+}
+.goods .title .brand .title .fresh .title{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.goods .title{
+    height: 102px;
+    margin-top: 10px;
+}
+.title h3 {
+    font-size: 30px;  /*调整字体大小*/
+    line-height: 42px;
+    margin-right: 35px;
+}
+.title p,
+.title a,
+.title .iconfont {
+    color: #A1A1A1;  /*调整a的字体格式*/
+}
+.title p {
+    position: relative;
+    bottom: -8px;
+}
+.title .all {
+    position: absolute;
+    right: 0;
+}
+.goods .title .iconfont {
+    margin-left: 10px;  
+}
+.goods ul {
+    display: flex;
+    justify-content: space-between;  
+}
+.goods ul li {
+    width: 304px;
+}
+.goods ul img {
+    height: 304px;
+}
+.goods .price{
+    height: 100px;
+}
+.bd .price {
+    height: 100px;
+}
+.bd .price {
+    background-color: #EEF9F4;
+}
+.goods .price p {  /*调整图片底下文字的格式*/
+    text-align: center;  
+    font-size: 22px;
+    color: #AA2113;
+}
+.goods .price a {  /*调整图片和底下文字的距离*/
+    display: block;
+    font-size: 20px;
+    padding: 17px 0 4px;
+}
+/*title区域*/
+.recommend .price p {
+    font-size: 16px;
+    color: #A1A1A1;
+    padding-bottom: 6px;
+}
+.recommend {  /*调整图片下方的文字格式*/
+    margin-bottom: 60px;
+}
+
+/*最新专题 topic*/
+.topic {
+    padding-top: 70px;
+} 
+.topic .title {
+    margin: 30px 0;
+    position: relative;
+}
+.topic ul {
+    height: 395px;
+    display: flex; 
+} 
+.topic li img {
+    display: block;
+    width: 405px;
+    height: 288px;
+    margin-bottom: 23px;
+}
+.topic div {
+    position: relative;
+}
+.topic div span {
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.topic div i {
+    font-size: 14px;
+}
+.topic div .iconfont {
+    font-size: 16px;
+    color: #888;
+}
+.topic div .iconfont:last-child {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*餐厨kitchen区域*/
+.kitchen {
+    padding-top: 20px;
+}
+.kitchen .title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.kitchen .title ul { 
+    display: flex;
+    position: absolute;
+    right: 134px;
+}
+.kitchen .title ul a{  
+    height: 22px;
+    line-height: 22px;
+    color: #333;
+    padding: 0 7px;
+    margin-right: 6px;
+}
+.kitchen .title ul a:hover {
+    background-color: #5EB69C;
+    color: #fff;
+}
+.kitchen .content {
+    display: flex;
+}
+.kitchen .content .left {
+    width: 248px;
+    height: 610px;
+    margin-right: 24px;
+}
+.kitchen .content .right ul {
+    display: flex;
+    width: 968px;
+    flex-wrap: wrap;
+}
+.kitchen .content .right li {  /*调整图片的布局*/
+    width: 242px;
+    height: 305px;
+    padding: 0 26px;
+}
+.kitchen.content .right img {
+    width: 190px;
+    height: 171px;
+    margin: 14.5px 0;
+}
+.kitchen .content .right a {  /*调整图片下方文字的位置*/
+    display: block;
+    width: 192px;
+    line-height: 19px;
+}
+.kitchen .content .right span {  /*调整图片下方文字的格式*/
+    font-size: 22px;
+    line-height: 45px;
+    color: #AF2F22;
+}
+.kitchen .content .right i {
+    font-size: 16px;
+    margin-right: 4px;
+}
